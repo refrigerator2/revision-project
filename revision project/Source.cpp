@@ -5,5 +5,8 @@ int calculateHowManyNuts(int squirrel, int nut) {
 }
 
 int main() {
-	cout << (calculateHowManyNuts(1, 1) == 5 ? "well done" : "something was wrong");
+	/*cout << (calculateHowManyNuts(3, 14) == 4 ? "well done" : "something was wrong");*/
+	int n = 210;
+	cout << calculateTens(n);
+	return 0;
 }
